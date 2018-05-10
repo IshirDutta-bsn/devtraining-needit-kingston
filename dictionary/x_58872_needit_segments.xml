@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Segments" max_length="40" name="x_58872_needit_segments" type="collection">
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Endpoints" max_length="40" name="endpoints" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element display="true" label="Segment Interface" max_length="40" name="segment_interface" type="string"/>
+        <element label="Tenant" max_length="40" name="tenant" type="string"/>
+    </element>
+</database>

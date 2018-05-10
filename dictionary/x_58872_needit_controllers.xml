@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Controllers" max_length="40" name="x_58872_needit_controllers" type="collection">
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element display="true" label="Status" max_length="40" name="status" type="string"/>
+    </element>
+</database>

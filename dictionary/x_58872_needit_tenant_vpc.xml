@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Tenant-VPC" max_length="40" name="x_58872_needit_tenant_vpc" type="collection">
-        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Router MAC Address" max_length="40" name="router_mac_address" type="string"/>
+        <element display="true" label="System Tenant Interface" max_length="40" name="system_tenant_interface" type="string"/>
+        <element label="Total Segments" max_length="40" name="total_segments" type="string"/>
     </element>
 </database>
