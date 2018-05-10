@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Test Path Results: Logical Overview" max_length="40" name="x_58872_needit_test_path_results_logical_overview" type="collection">
+        <element label="Endpoint" max_length="40" name="endpoint" type="string"/>
+        <element label="Hop Index" max_length="40" name="hop_index" type="string"/>
+        <element label="Segment Interface" max_length="40" name="segment_interface" type="string"/>
+        <element label="Tenant Interface" max_length="40" name="tenant_interface" type="string"/>
+        <element label="Tenant Router" max_length="40" name="tenant_router" type="string"/>
+        <element label="Test Name" max_length="40" name="test_name" type="string"/>
+    </element>
+</database>

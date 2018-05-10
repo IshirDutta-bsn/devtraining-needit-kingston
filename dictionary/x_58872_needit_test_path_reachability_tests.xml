@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Test Path: Reachability Tests" max_length="40" name="x_58872_needit_test_path_reachability_tests" type="collection">
+        <element label="Destination IP" max_length="40" name="destination_ip" type="string"/>
+        <element label="Expected Result" max_length="40" name="expected_result" type="string"/>
+        <element label="Last Run" max_length="40" name="last_run" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Source IP" max_length="40" name="source_ip" type="string"/>
+        <element label="Source Segment" max_length="40" name="source_segment" type="string"/>
+        <element display="true" label="Source Stats" max_length="8000" name="source_stats" type="html"/>
+        <element label="Source Tenant" max_length="40" name="source_tenant" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+    </element>
+</database>

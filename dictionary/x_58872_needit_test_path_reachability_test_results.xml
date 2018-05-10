@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Test Path: Reachability Test Results" max_length="40" name="x_58872_needit_test_path_reachability_test_results" type="collection">
+        <element label="Egress Interface" max_length="40" name="egress_interface" type="string"/>
+        <element label="Endpoint IP" max_length="40" name="endpoint_ip" type="string"/>
+        <element label="Endpoint MAC" max_length="40" name="endpoint_mac" type="string"/>
+        <element label="Hop" max_length="100" name="hop" type="string"/>
+        <element label="Hop Index" max_length="40" name="hop_index" type="string"/>
+        <element label="Hop Type" max_length="40" name="hop_type" type="string"/>
+        <element display="true" label="Policy" max_length="40" name="policy" type="string"/>
+        <element label="Route" max_length="100" name="route" type="string"/>
+        <element label="Segment/Ingress Interface" max_length="40" name="segment_ingress_interface" type="string"/>
+        <element label="Tenant/Logical Router" max_length="40" name="tenant_logical_router" type="string"/>
+    </element>
+</database>
